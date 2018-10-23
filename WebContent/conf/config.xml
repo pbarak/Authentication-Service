@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <settings>
+    <zookeeper>
+		<zooip>snf-823775.vm.okeanos.grnet.gr:2181</zooip>
+		<zooip>snf-826182.vm.okeanos.grnet.gr:2181</zooip>
+		<zooip>snf-826234.vm.okeanos.grnet.gr:2181</zooip>
+    	<dirservicepath>/DirServices</dirservicepath>
+    	<authservicepath>/AuthServices</authservicepath>
+    	<storageservicepath>/StorageServices</storageservicepath>
+    	<zoouser>panagiotis</zoouser>
+    	<zoopass>panagiotispass</zoopass>
+    </zookeeper>
+    <dburl>jdbc:mariadb://localhost/AUTHSERVICE</dburl>
+    <dbuser>panagiotis</dbuser>
+    <dbpass>verikoko</dbpass>
+    <identifier>PBAUTH</identifier>
+    <key>ymryFt2bMOIuIkzNGURcx0aQ3Okh9QO1QE2wBIS4Gn8=</key>
+    <name>name</name>
+     <apiurl>http://snf-826182.vm.okeanos.grnet.gr:8080/AuthenticationService/ApiAuthentication</apiurl>
+      <registerurl>http://snf-826182.vm.okeanos.grnet.gr:8080/AuthenticationService/signup.jsp</registerurl>
+       <loginurl>http://snf-826182.vm.okeanos.grnet.gr:8080/AuthenticationService/login.jsp</loginurl>
+  </settings>
